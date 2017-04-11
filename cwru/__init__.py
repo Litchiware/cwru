@@ -17,10 +17,7 @@ class CWRU:
             print "wrong rpm value: {}".format(rpm)
             exit(1)
         # root directory of all data
-        rdir = os.path.join(os.path.expanduser('~'),
-                            'Datasets/CWRU',
-                            exp,
-                            rpm)
+        rdir = os.path.join(os.path.expanduser('~'), 'Datasets/CWRU')
 
         fmeta = os.path.join(os.path.dirname(__file__), 'metadata.txt')
         all_lines = open(fmeta).readlines()

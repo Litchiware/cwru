@@ -6,7 +6,7 @@ def readme():
         return f.read()
 
 setup(name='cwru',
-      version='0.2',
+      version='0.3',
       description='Case Western Reserve University Bearing Data',
       long_description=readme(),
       classifiers=[
