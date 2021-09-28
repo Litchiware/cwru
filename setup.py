@@ -12,7 +12,7 @@ setup(name='cwru',
       classifiers=[
           'Development Status :: 3 - Alpha',
           'License :: OSI Approved :: MIT License',
-          'Programming Language :: Python :: 2.7',
+          'Programming Language :: Python :: 3.7',
           'Topic :: Scientific/Engineering :: Information Analysis',
       ],
       keywords='cwru bearing fault diagnosis dataset',
